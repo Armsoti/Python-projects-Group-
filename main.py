@@ -1,5 +1,6 @@
 from random import choice
 
+#Щербань Дарія - функція додавання студента до словника та створення словника
 def new_student():
     Name = input("Enter your full name: ")
     Year = int(input("Enter Year of studying(from 1 to 4): "))
