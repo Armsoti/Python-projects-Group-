@@ -1,2 +1,8 @@
 Dariia Shcherban
 What is the complete form of a conditional operator if?
+Yushchenko Alona
+Answer:
+It checks whether a certain condition is true, and if it is, the statement inside the block will be executed.
+In Python, indentation is used to define the block of code that belongs to the if statement.
+New questions:
+What is the difference between a list and a tuple in Python?

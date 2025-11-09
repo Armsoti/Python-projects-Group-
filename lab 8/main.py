@@ -20,7 +20,17 @@ if(file_1_w != None):
     file_1_w.close()
     print("File test.txt was closed!")
 
+#Ющенко Альона - надання відповіді на питання, та додавання наступного
+file_2 = Open(file1_name, "a")  # "a" означає "append" — дописати в кінець файлу
 
+if (file_2 != None):
+    file_2.write("Yushchenko Alona\n")
+    file_2.write("""Answer:\nIt checks whether a certain condition is true, and if it is, the statement inside the block will be executed.
+In Python, indentation is used to define the block of code that belongs to the if statement.\n""")
+    file_2.write("New questions:\nWhat is the difference between a list and a tuple in Python?\n")
+    print("Information was successfully added to test.txt!")
+    file_2.close()
+    print("File test.txt was closed!")
 
 
 file_1_r = Open(file1_name, "r") #Це в кінець коду для виводу змісту файлу
