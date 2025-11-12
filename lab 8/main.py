@@ -32,6 +32,20 @@ In Python, indentation is used to define the block of code that belongs to the i
     file_2.close()
     print("File test.txt was closed!")
 
+#Голишев Артем - продовження, друге питання та відповідь на попереднє
+file_3 = Open(file1_name, "a")
+
+if (file_3 != None):
+    file_3.write("Artem Holyshev\n")
+    file_3.write("""Answer:\nList and tuple are collections of data that are ordered.
+However, the main difference is that the first one is changeable, while the second one is not.
+Other differences include better memory efficiency and better iteration for tuples, as well as different syntax:
+A list is written in square brackets [ ], and a tuple is written in parentheses ( ).\n""")
+    file_3.write("Next question:\nWhat is a dictionary in Python and how does it work?\n")
+    print("Information was successfully added to test.txt!")
+    file_3.close()
+    print("File test.txt was closed!")
+
 
 file_1_r = Open(file1_name, "r") #Це в кінець коду для виводу змісту файлу
 original_text = file_1_r.read()
