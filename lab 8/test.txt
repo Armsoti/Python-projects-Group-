@@ -6,3 +6,11 @@ It checks whether a certain condition is true, and if it is, the statement insid
 In Python, indentation is used to define the block of code that belongs to the if statement.
 New questions:
 What is the difference between a list and a tuple in Python?
+Artem Holyshev
+Answer:
+List and tuple are collections of data that are ordered.
+However, the main difference is that the first one is changeable, while the second one is not.
+Other differences include better memory efficiency and better iteration for tuples, as well as different syntax:
+A list is written in square brackets [ ], and a tuple is written in parentheses ( ).
+Next question:
+What is a dictionary in Python and how does it work?
