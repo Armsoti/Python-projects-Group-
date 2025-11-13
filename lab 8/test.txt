@@ -14,3 +14,8 @@ Other differences include better memory efficiency and better iteration for tupl
 A list is written in square brackets [ ], and a tuple is written in parentheses ( ).
 Next question:
 What is a dictionary in Python and how does it work?
+Volodymyr Kozynets
+Answer:
+Dictionaries are used to store data values in key:value pairs.
+A dictionary is a collection which is ordered, changeable and do not allow duplicates.
+Dictionaries are written with curly brackets, and have keys and values.

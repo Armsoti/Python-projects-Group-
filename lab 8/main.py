@@ -46,6 +46,18 @@ A list is written in square brackets [ ], and a tuple is written in parentheses 
     file_3.close()
     print("File test.txt was closed!")
 
+#Козинець Володимир - продовження, відповідь на останнє питання
+file_4 = Open(file1_name, "a")
+
+if (file_4 != None):
+    file_4.write("Volodymyr Kozynets\n")
+    file_4.write("""Answer:\nDictionaries are used to store data values in key:value pairs.
+A dictionary is a collection which is ordered, changeable and do not allow duplicates.
+Dictionaries are written with curly brackets, and have keys and values.\n""")
+    print("Information was successfully added to test.txt!")
+    file_4.close()
+    print("File test.txt was closed!")
+
 
 file_1_r = Open(file1_name, "r") #Це в кінець коду для виводу змісту файлу
 original_text = file_1_r.read()
